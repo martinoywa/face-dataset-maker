@@ -6,9 +6,9 @@
 [image6]: ./code_images/image_6.png
 
 # Face Dataset Generator
-This simple program was developed to help in generation datasets that you can use for facial detection and recognition modesls. <br>
-The program uses OpenCV's <b><i>haarcascade_frontalface_alt2.xml</i></b> for face detection then the detected face is saved in the folder you specify. <br>
-For this program images would be saved under a folder called <b><i>images</i></b> already specified for you and a subfolder which you'll specifiy yourself, e.g <b><i>martin</i></b>
+This simple program was developed to help in generation datasets that you can <br> use for facial detection and recognition models. <br>
+The program uses OpenCV's <b><i>haarcascade_frontalface_alt2.xml</i></b> for <br> face detection then the detected face is saved in the folder you specify. <br>
+For this program images would be saved under a folder called <b><i>images</i></b> already <br> specified for you and a subfolder which you'll specifiy yourself, e.g <b><i>martin</i></b>
 
 # How to
 - Create a virtual environment: <br>
@@ -19,13 +19,13 @@ For this program images would be saved under a folder called <b><i>images</i></b
 <code>pip3 install -r requirements.txt</code>
 - Run the generator: <br>
 <code>python3 dataset_maker.py</code> <br>
-This should prompt you for a folder name as below
-![image1]
+This should prompt you for a folder name as below <br>
+![image1] <br>
 Once you click <b><i>Entr</i></b>, a video stream will start showing. <b><i>A green bounding box indicates that images are being saved</i></b>.
-![image2]
-- The directories are
+![image2] <br>
+- The directories are <br>
 ![image3] ![image4] ![image5]
 <br>
-- Sample image
+- Sample image <br>
 ![image6]
 - To quit press <b><i>Q</i></b>
